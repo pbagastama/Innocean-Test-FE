@@ -80,7 +80,6 @@ img {
 /* Navbar */
 .tk-navbar {
     position: relative;
-    /* background: rgba(5, 6, 10, 0.95); */
     backdrop-filter: blur(16px);
     margin-top: 50px;
     padding: 0 38px 0 80px;
@@ -153,14 +152,6 @@ img {
     color: #FFF;
 }
 
-/* .navbar-toggler-icon {
-    filter: brightness(100);
-} */
-
-
-
-
-/* Hero */
 .tk-hero {
     position: relative;
     min-height: calc(100vh - 72px);
@@ -336,15 +327,6 @@ img {
 .tk-footer .text-copy {
     font-size: 13px;
 }
-
-/* .tk-footer-overlay {
-    position: absolute;
-    inset: 0;
-    background-image: url("../assets/img/footer-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.12;
-} */
 
 .tk-footer .footer-link {
     color: #ffffff;

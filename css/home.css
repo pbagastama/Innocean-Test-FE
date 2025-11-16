@@ -1,7 +1,6 @@
 /* ===========================
-   HOME PAGE OVERRIDES
+   HOMEPAGE
    =========================== */
-
 .home-page {
     background-color: #ffffff;
     color: #111111;
@@ -95,10 +94,6 @@
     background-color: #ffffff;
     color: #111111;
 }
-
-/* .home-page .tk-case-row+.tk-case-row {
-    border-top: 1px solid #f2f2f2;
-} */
 
 .home-page .tk-case-media {
     position: relative;
@@ -250,7 +245,6 @@
 }
 
 .home-page .tk-work-kicker {
-    /* font-family: 'Gotham-book', sans-serif; */
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -324,10 +318,6 @@
     .home-page .tk-case-row .one-image img {
         padding-bottom: 40px;
     }
-
-    /* .home-page .tk-work-section .tk-work-row {
-        margin: 0;
-    } */
 }
 
 @media (max-width: 768px) {
@@ -412,5 +402,5 @@
 }
 
 /* ===========================
-   END HOME PAGE OVERRIDES
+   END HOMEPAGE
    =========================== */
