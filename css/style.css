@@ -62,6 +62,37 @@
     font-display: swap;
 }
 
+.gotham-bold {
+    font-family: 'Gotham-Bold', sans-serif;
+}
+
+.gotham-book {
+    font-family: 'Gotham-Book', sans-serif;
+}
+
+.gotham-medium {
+    font-family: 'Gotham-Medium', sans-serif;
+}
+
+.gotham-light {
+    font-family: 'Gotham-Light', sans-serif;
+}
+
+.gotham-light-italic {
+    font-family: 'Gotham-Light-Italic', sans-serif;
+}
+
+.gotham-medium-italic {
+    font-family: 'Gotham-Medium-Italic', sans-serif;
+}
+
+.gotham-book-italic {
+    font-family: 'Gotham-Book-Italic', sans-serif;
+}
+
+.gotham-bold-italic {
+    font-family: 'Gotham-Bold-Italic', sans-serif;
+}
 
 body {
     font-family: 'Gotham-Book', sans-serif;
@@ -289,22 +320,22 @@ img {
 }
 
 /* FOOTER MINIMAL */
-.home-page .tk-footer-minimal {
+.tk-footer {
     background-color: #ffffff;
-    /* border-top: 1px solid #f2f2f2; */
+    padding: 70px 0 32px;
     color: #3a3a3a;
 }
 
-.home-page .tk-footer-link {
+.tk-footer-link {
     color: #666666;
     text-decoration: none;
 }
 
-.home-page .tk-footer-link:hover {
+.tk-footer-link:hover {
     text-decoration: underline;
 }
 
-.home-page .tk-footer-social a {
+.tk-footer-social a {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -314,27 +345,6 @@ img {
 
 .home-page .tk-footer-social a:hover {
     color: #111111;
-}
-
-/* Footer */
-.tk-footer {
-    position: relative;
-    padding: 32px 0;
-    background-color: #05060a;
-    overflow: hidden;
-}
-
-.tk-footer .text-copy {
-    font-size: 13px;
-}
-
-.tk-footer .footer-link {
-    color: #ffffff;
-    font-size: 0.9rem;
-}
-
-.tk-footer .footer-link:hover {
-    text-decoration: underline;
 }
 
 /* About page */
@@ -382,46 +392,6 @@ img {
     font-size: 0.9rem;
 }
 
-/* Contact page */
-.tk-contact-form .form-label {
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-}
-
-.tk-contact-form .form-control {
-    background-color: #05060a;
-    border-color: #202435;
-    color: #f5f5f5;
-}
-
-.tk-contact-form .form-control:focus {
-    background-color: #05060a;
-    border-color: #6366f1;
-    box-shadow: 0 0 0 0.1rem rgba(99, 102, 241, 0.25);
-}
-
-.tk-contact-form button[type="submit"] {
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    font-size: 0.8rem;
-}
-
-.tk-form-feedback {
-    font-size: 0.9rem;
-    color: #22c55e;
-}
-
-.tk-form-error {
-    color: #f97373;
-}
-
-.tk-contact-side {
-    background: #111320;
-    border-radius: 24px;
-    padding: 24px 22px;
-}
-
 /* Social links */
 .tk-social-links a {
     font-size: 0.85rem;
@@ -443,18 +413,6 @@ img {
 
 /* Responsive tweaks */
 @media (max-width: 767.98px) {
-    /* body {
-        padding-top: 64px;
-    }
-
-    .tk-hero {
-        padding: 64px 0;
-    }
-
-    .tk-section {
-        padding: 64px 0;
-    } */
-
     .tk-navbar {
         padding: 0 12px 0;
         margin-top: 30px;
