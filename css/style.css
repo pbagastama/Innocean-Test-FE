@@ -306,19 +306,6 @@ img {
     border-radius: 24px;
 }
 
-/* Work badges */
-.tk-work-badge {
-    border-radius: 999px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    padding: 18px 10px;
-}
-
-.tk-work-title {
-    text-transform: uppercase;
-    letter-spacing: 0.16em;
-    font-size: 0.85rem;
-}
-
 /* FOOTER MINIMAL */
 .tk-footer {
     background-color: #ffffff;
@@ -345,51 +332,6 @@ img {
 
 .home-page .tk-footer-social a:hover {
     color: #111111;
-}
-
-/* About page */
-.tk-team-card {
-    background: #111320;
-    border-radius: 22px;
-    padding: 20px;
-    height: 100%;
-}
-
-.tk-team-img-wrapper {
-    border-radius: 18px;
-    overflow: hidden;
-    margin-bottom: 14px;
-    background: #05060a;
-}
-
-.tk-team-img-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.tk-team-name {
-    font-size: 1.1rem;
-    margin-bottom: 2px;
-}
-
-.tk-team-role {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    opacity: 0.7;
-}
-
-.tk-team-desc {
-    font-size: 0.9rem;
-    opacity: 0.85;
-}
-
-.tk-nextstep-card {
-    background: #05060a;
-    border-radius: 18px;
-    padding: 16px 18px;
-    font-size: 0.9rem;
 }
 
 /* Social links */
@@ -423,11 +365,19 @@ img {
         padding: 4px 0 4px 8px;
     }
 
+    button.navbar-toggler:focus, button.navbar-toggler:hover, button.navbar-toggler:active, button.navbar-toggler:visited {
+        box-shadow: none;
+    }
+
     .offcanvas-header .navbar-brand {
         width: 180px;
     }
 
     .tk-nav-link-fs {
         font-size: 20px;
+    }
+
+    .tk-footer {
+        padding: 20px 0 10px;
     }
 }

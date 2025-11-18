@@ -1,0 +1,442 @@
+/* ==========================================
+   ABOUT PAGE
+   ========================================== */
+
+/* About Hero Section */
+.about-hero-section {
+    min-height: 100vh;
+    background-image: url('../assets/about-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #ffffff;
+}
+
+.about-hero-section .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    padding: 0;
+    max-width: 520px;
+}
+
+.about-hero-subtitle {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.about-hero-title {
+    font-family: 'Gotham-Bold', sans-serif;
+    font-size: 70px;
+    line-height: 77px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.about-hero-copy {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    /* max-width: 500px; */
+}
+
+.tk-scroll-pill {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+}
+
+.tk-scroll-pill:hover {
+    border-color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(5px);
+}
+
+/* Intro Section */
+.about-intro-section {
+    background: #ffffff;
+    padding: 100px 0;
+}
+
+.about-intro-text {
+    font-size: clamp(1rem, 1.3vw, 1.125rem);
+    line-height: 1.8;
+    color: #666666;
+    font-weight: 300;
+}
+
+/* Guide Section */
+.your-guide-section {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+.your-guide-title {
+    font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.your-guide-subtitle {
+    color: #0e0e0e;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-size: 10px;
+    line-height: 1.9em;
+}
+
+.your-guide-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666666;
+    font-weight: 300;
+}
+
+/* Team Section - Swiper */
+.team-section {
+    background: #ffffff;
+    padding: 10px 0 60px;
+    overflow: hidden;
+}
+
+.teamSwiper {
+    width: 100%;
+    padding: 0;
+    margin-left: 30vw;
+}
+
+.teamSwiper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 380px;
+    height: auto;
+}
+
+.team-member {
+    text-align: center;
+    background: #ffffff;
+}
+
+.team-photo {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    border-radius: 0;
+    width: 100%;
+}
+
+.team-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.team-info {
+    padding: 0;
+    text-align: left;
+
+}
+
+.team-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.team-role {
+    color: #0e0e0e;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 10px;
+    line-height: 1.9em;
+}
+
+.team-bio {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666666;
+    font-weight: 300;
+}
+
+/* Next Steps Section */
+.next-steps-section {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+.next-steps-title {
+    font-size: clamp(1.75rem, 2.5vw, 2.15rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 2.15rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.next-steps-subtitle {
+    color: #0e0e0e;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-size: 10px;
+    line-height: 1.9em;
+}
+
+.next-step-card {
+    padding: 0 5rem 4rem 0;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.next-step-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.next-step-card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;
+}
+
+.next-step-card-text {
+    font-size: 1rem;
+    line-height: 2;
+    color: #666666;
+    font-weight: 300;
+}
+
+.next-step-button {
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    background-color: #424242;
+    width: 50%;
+    padding: 15px 29px;
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.next-step-button:hover {
+    background: #333333;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Locations Section */
+.locations-section {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+.locations-title {
+    font-size: clamp(1.75rem, 2.5vw, 2.15rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 2.15rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.locations-subtitle {
+    color: #0e0e0e;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-size: 10px;
+    line-height: 1.9em;
+}
+
+.location-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;
+}
+
+.location-address {
+    font-size: 1rem;
+    line-height: 2;
+    color: #666666;
+    font-weight: 300;
+}
+
+/* Office Section */
+.office-image-section {
+    background: #f5f5f5;
+    padding: 0;
+}
+
+.full-screen-image.office-hero {
+    background-image: url('../assets/about-office-hero.jpg');
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 67vh;
+}
+
+/* Responsive Device */
+@media (max-width: 992px) {
+    .about-hero-section .about-hero-title {
+        font-size: 55px;
+    }
+
+    .about-hero-section .about-hero-copy {
+        max-width: 450px;
+    }
+
+    .about-intro-section {
+        padding: 60px 0;
+    }
+
+    .your-guide-section {
+        padding: 60px 0;
+    }
+
+    .team-section {
+        padding: 10px 0 40px;
+    }
+
+    .teamSwiper {
+        margin-left: 15vw;
+    }
+
+    .next-steps-section {
+        padding: 60px 0;
+    }
+
+    .next-step-card {
+        padding: 0 2rem 2rem 0;
+    }
+
+    .locations-section {
+        padding: 60px 0;
+    }
+
+    .full-screen-image.office-hero {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero-copy {
+        max-width: 100%;
+    }
+
+    .about-intro-section {
+        padding: 50px 0;
+    }
+
+    .your-guide-section {
+        padding: 50px 0;
+    }
+
+    .team-section {
+        padding: 50px 0;
+    }
+
+    .teamSwiper {
+        margin-left: 0;
+    }
+
+    .next-steps-section {
+        padding: 50px 0;
+    }
+
+    .next-step-card {
+        padding: 0 0 1rem 0;
+    }
+
+    .locations-section {
+        padding: 50px 0;
+    }
+
+    .full-screen-image.office-hero {
+        object-fit: cover;
+        width: 100%;
+        height: 50vw;
+        position: static;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-intro-section {
+        padding: 4rem 1.25rem 2rem;
+    }
+
+    .your-guide-section {
+        padding: 4rem 1.25rem 2rem;
+    }
+
+    .team-section {
+        padding: 0 1.25rem 2rem;
+    }
+
+    .next-steps-section {
+        padding: 4rem 1.25rem 2rem;
+    }
+
+    .next-step-button {
+        width: auto;
+    }
+
+    .locations-section {
+        padding: 4rem 1.25rem 2rem;
+    }
+
+    .about-hero-section .about-hero-title {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+
+    .team-photo {
+        margin-bottom: 1rem;
+    }
+
+    .teamSwiper .swiper-slide {
+        width: 300px;
+    }
+
+    .next-step-card {
+        padding: 0 0 1rem;
+    }
+}
+
+/* ==========================================
+   END ABOUT
+   ========================================== */
